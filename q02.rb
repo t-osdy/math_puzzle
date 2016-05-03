@@ -4,7 +4,7 @@
 op = ["+","-","*",""]
 
 for i in 1000..10000
-  c = i.to_s(10)
+  c = i.to_s
   for j in 0..3
     for k in 0..3
       for l in 0..3

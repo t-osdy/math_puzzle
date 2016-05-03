@@ -1,5 +1,5 @@
 # 10進数,2進数,8進数のいずれでも回文数になるn(n>=10)
-# 英語で書く
+# The number which becomes palindrome by decimal number, binary number and octal all
 
 num = 11
 

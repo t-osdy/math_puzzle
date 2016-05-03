@@ -13,7 +13,7 @@ for i in 1000..10000
         if val.length > 4
           unless val.split(//).include?("0")
             if i == eval(val)
-              puts i == eval(val)
+              puts i.to_s + "=>" + eval(val).to_s.reverse
             end
           end
         end

@@ -1,7 +1,7 @@
 N = 10000
 cnt = 0
 
-N.times do |i|
+2.step(N, 2) do |i|
   num = (i * 3) + 1
 
   while num != 1
